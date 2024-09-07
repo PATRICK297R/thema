@@ -67,7 +67,7 @@ check_token() {
   else
     echo -e "${GREEN}Buy dulu Gih Ke BagazzModz${NC}"
     echo -e "${YELLOW}TELEGRAM : @BagazzModz${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6289530583676${NC}"
+    echo -e "${YELLOW}WHATSAPP : 6283197979544${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
     echo -e "${YELLOW}©BagazzModzOffc${NC}"
     exit 1
@@ -92,7 +92,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/gitfdil1248/thema/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/okuzen80987/thema/raw/main/C2.zip")
         break
         ;;
       2)
@@ -100,7 +100,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/gitfdil1248/thema/raw/main/C3.zip")
+        THEME_URL=$(echo -e "https://github.com/okuzen80987/thema/raw/main/C3.zip")
         break
         ;; 
       x)
@@ -226,7 +226,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/gitfdil1248/thema/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/okuzen80987/thema/main/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
@@ -245,7 +245,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/C2.zip https://github.com/gitfdil1248/thema/raw/main/C2.zip
+wget -O /root/C2.zip https://github.com/okuzen80987/thema/raw/main/C2.zip
 
 # Ekstrak file tema
 unzip /root/C2.zip -d /root/pterodactyl
