@@ -1,8 +1,6 @@
 # Theme
-JANGAN DIJUAL BELAKAN YE BWANG !!!
-BUTUH LICENSE/PW CHAT TELE GUA
->> t.me/fadhost <<
+Tanpa License/token" gajelas kontol
 
 Comand Run Install Thema
 
-bash <(curl https://raw.githubusercontent.com/gitfdil1248/thema/main/install.sh)
+bash <(curl https://raw.githubusercontent.com/PATRICK297R/thema/main/install.sh)
