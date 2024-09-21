@@ -13,17 +13,13 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © BAGAZZ MODZ                [+]${NC}"
+  echo -e "${BLUE}[+]                  © Pterodactyl                 [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
   echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
-  echo -e "dilarang keras untuk memperjual belikan."
+  echo -e "Script ini Tanpa token² gajelas, yg buat script pterodactyl installer aja ga pake token, ini banyak yg make² token wkwk"
   echo -e ""
-  echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@BagazzModz"
-  echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@BagazzModzOffc"
   sleep 4
   clear
 }
@@ -50,28 +46,6 @@ install_jq() {
   fi
   echo -e "                                                       "
   sleep 1
-  clear
-}
-#Check user token
-check_token() {
-  echo -e "                                                       "
-  echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY BAGAZZ MODZ             [+]${NC}"
-  echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "                                                       "
-  echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
-  read -r USER_TOKEN
-
-  if [ "$USER_TOKEN" = "bagasganteng" ]; then
-    echo -e "${GREEN}AKSES BERHASIL${NC}}"
-  else
-    echo -e "${GREEN}Buy dulu Gih Ke BagazzModz${NC}"
-    echo -e "${YELLOW}TELEGRAM : @BagazzModz${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6283197979544${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©BagazzModzOffc${NC}"
-    exit 1
-  fi
   clear
 }
 
@@ -456,11 +430,11 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer BagazzModz   ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Pterodactyl   ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : BagazzModz      ${NC}"
-  echo -e "${RED} ggg:     ggg._    _,ggg        • Creadit  : BAGAZZMODZOFFC  ${NC}"
-  echo -e "${RED} ggg.    '.'''ggggggp           • Support by BagazzModzOffc  ${NC}"
+  echo -e "${RED}ggg:     gg.     -   ,ggg                                 ${NC}"
+  echo -e "${RED} ggg:     ggg._    _,ggg                                  ${NC}"
+  echo -e "${RED} ggg.    '.'''ggggggp                                     ${NC}"
   echo -e "${RED}  'ggg    '-.__                                           ${NC}"
   echo -e "${RED}    ggg                                                   ${NC}"
   echo -e "${RED}      ggg                                                 ${NC}"
