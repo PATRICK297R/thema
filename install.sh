@@ -379,8 +379,8 @@ read -p "Masukkan Ulang Pw Baru " pw
 passwd <<EOF
 $pw
 $pw
-
 EOF
+reboot
 
 
   echo -e "                                                       "
