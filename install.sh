@@ -24,31 +24,6 @@ display_welcome() {
   clear
 }
 
-#Update and install jq
-install_jq() {
-  echo -e "                                                       "
-  echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]             UPDATE & INSTALL JQ                 [+]${NC}"
-  echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "                                                       "
-  sudo apt update && sudo apt install -y jq
-  if [ $? -eq 0 ]; then
-    echo -e "                                                       "
-    echo -e "${GREEN}[+] =============================================== [+]${NC}"
-    echo -e "${GREEN}[+]              INSTALL JQ BERHASIL                [+]${NC}"
-    echo -e "${GREEN}[+] =============================================== [+]${NC}"
-  else
-    echo -e "                                                       "
-    echo -e "${RED}[+] =============================================== [+]${NC}"
-    echo -e "${RED}[+]              INSTALL JQ GAGAL                   [+]${NC}"
-    echo -e "${RED}[+] =============================================== [+]${NC}"
-    exit 1
-  fi
-  echo -e "                                                       "
-  sleep 1
-  clear
-}
-
 # Install theme
 install_theme() {
   while true; do
