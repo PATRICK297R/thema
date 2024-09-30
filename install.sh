@@ -392,8 +392,6 @@ EOF
   
   exit 0
 }
-# Main script
-display_welcome
 
 while true; do
   clear
